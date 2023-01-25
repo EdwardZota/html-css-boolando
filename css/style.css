@@ -10,6 +10,12 @@ html{
 
 /* Debug*/
 
+main{
+    height: 1000px;
+}
+
+
+
 
 
 
@@ -34,13 +40,13 @@ header{
     justify-content: space-between;
 }
 
-nav li{
+nav li,.footer-left li{
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 10px 0 0;
 }
 
-nav li a, .button a{
+nav li a, .button a,.footer-left a,.footer-right a{
     text-decoration: none;
     color: white;
 }
@@ -52,3 +58,28 @@ nav li a, .button a{
 .header-container img{
     height: 40px;
 }
+
+
+
+
+footer{
+    background-color: #1a1a1a;
+    height: 100px;
+}
+
+.footer-container{
+    padding-top: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left li{
+    font-size: 12px;
+}
+
+.footer-right a{
+    display: inline-block;
+    padding: 10px 5px 0 0;
+}
+
