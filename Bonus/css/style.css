@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #ff6900 ;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.col{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li,.footer-left li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px 0 0;
+}
+
+nav li a, .button a,.footer-left a,.footer-right a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-container .button a{
+    padding: 3px;
+}
+
+.header-container img{
+    height: 40px;
+}
+
+
+main{
+    padding-top:150px ;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    width: calc(100% / 3);
+    padding: 30px;
+}
+
+.product img{
+    width: 100%;
+}
+
+.product{
+    position: relative;
+}
+
+.first{
+    
+    position: relative;
+}
+
+.second{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.second:hover{
+    opacity: 1;
+}
+
+
+.heart{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.tag{
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 415px;
+    left: 0;
+}
+
+.sales, .eco{
+    padding: 5px 8px;
+    display: inline-block;
+}
+
+.sales{
+    background-color: red;
+
+}
+
+.eco{
+    background-color: #008000;
+}
+
+
+.name-product{
+    font-size: 13px;
+}
+
+.short-description,.new.price{
+    font-weight: bolder;
+}
+
+.price.new{
+    color: red;
+}
+
+.price.old{
+    text-decoration: line-through;
+}
+
+.price::after{
+    content: '\20AC';
+}
+
+
+footer{
+    background-color: #1a1a1a;
+    height: 100px;
+}
+
+.footer-container{
+    padding-top: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left li{
+    font-size: 12px;
+}
+
+.footer-right a{
+    display: inline-block;
+    padding: 10px 5px 0 0;
+}
+
+/* Parte Bonus Hover*/
+
