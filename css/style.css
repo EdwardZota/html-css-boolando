@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+/* Debug*/
+
+
+
+
+/* inizio CSS */
+
+header{
+    background-color: #ff6900 ;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.col{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a, .button a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-container .button a{
+    padding: 3px;
+}
+
+.header-container img{
+    height: 40px;
+}
