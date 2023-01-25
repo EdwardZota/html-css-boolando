@@ -10,11 +10,6 @@ html{
 
 /* Debug*/
 
-main{
-    height: 1000px;
-}
-
-
 
 
 
@@ -60,6 +55,79 @@ nav li a, .button a,.footer-left a,.footer-right a{
 }
 
 
+main{
+    padding-top:150px ;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    width: calc(100% / 3);
+    padding-bottom: 20px;
+}
+
+.product img{
+    width: 100%;
+}
+
+.product{
+    position: relative;
+}
+
+.first{
+    
+    position: relative;
+}
+
+.second{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.second:hover{
+    opacity: 1;
+}
+
+
+
+.square{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+
+
+.name-product{
+    font-size: 13px;
+}
+
+.short-description,.new.price{
+    font-weight: bolder;
+}
+
+.price.new{
+    color: red;
+}
+
+.price.old{
+    text-decoration: line-through;
+}
+
+.price::after{
+    content: '\20AC';
+}
 
 
 footer{
