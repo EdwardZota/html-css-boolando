@@ -90,9 +90,7 @@ main{
 
 
 .heart{
-    height: 35px;
-    width: 35px;
-    text-align: center;
+    padding: 5px 10px;
     font-size: 30px;
     background-color: white;
     position: absolute;
@@ -167,6 +165,6 @@ footer{
 
 /* Parte Bonus Hover*/
 
-.heart:hover{
+.heart span:hover{
     color: red;
 }
