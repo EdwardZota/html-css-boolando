@@ -69,6 +69,7 @@ main{
 .column{
     width: calc(100% / 3);
     padding: 30px;
+    min-width: 390px;
 }
 
 .product img{
