@@ -166,3 +166,6 @@ footer{
 
 /* Parte Bonus Hover*/
 
+.heart:hover{
+    color: red;
+}
